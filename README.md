@@ -166,7 +166,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔗 Links
 
-- [Project telegram](https://github.com/your-org/DOOM-SEC/wiki)
+- Project telegram -- https://t.me/+YDEryZZ4_PgwZWNk
 
 ---
 
