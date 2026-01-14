@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-# LateralPhantom.py - WMI + PowerShell Lateral Movement Framework (Pure LotL Red Team)
-# Hand-coded for authorized testing only: WMI, WinRM, SMB execution, credential reuse
+# LateralPhantom.py - WMI + PowerShell Lateral Movement Framework
 # EPO - Lab / Explicit Permission ONLY! 💀
 
 import sys
