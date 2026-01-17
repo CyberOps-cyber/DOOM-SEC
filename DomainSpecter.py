@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # DomainSpecter.py - AD Enumeration & DCSync / Golden Ticket Stub (Domain Domination)
-# Hand-coded for authorized testing only: AD enum, DCSync, ticket forging
 # EPO - Lab / Explicit Permission ONLY! 💀
 
 import sys
