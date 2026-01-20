@@ -98,7 +98,7 @@ void ScanNtdllHooks() {
         "NtWriteVirtualMemory",
         "NtCreateThreadEx",
         "NtQueueApcThread",
-        "NtDelayExecution"
+        "NtDelayExecution",
     };
 
     std::cout << "[" << timestamp() << "] Scanning NTDLL hooks...\n";
