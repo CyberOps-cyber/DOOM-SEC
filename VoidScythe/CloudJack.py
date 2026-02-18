@@ -4,7 +4,6 @@
 
 """
 DOOM-SEC | VoidScythe | CloudJack
-Author: CyberOps
 Version: 3.0.0
 """
 
