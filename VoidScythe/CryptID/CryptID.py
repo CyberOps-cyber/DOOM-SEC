@@ -4,7 +4,6 @@
 
 """
 DOOM-SEC | VoidScythe | CryptID
-Author: CyberOps
 Version: 3.0.0
 """
 
